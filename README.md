@@ -57,7 +57,6 @@ Run the project
 
 Simply open index.html in your browser
 
-<<<<<<< HEAD
 ---
 ## 📱 Responsive Design
 
@@ -79,10 +78,10 @@ The layout adapts beautifully on all screen sizes including mobile, tablet, and 
 📧 Email: fathimafesmikp@gmail.com
 
 ---
-=======
+
  ## 🌐 Live Demo
 👉 [View Website](https://fesmikp.github.io/ecommerce-website/)
->>>>>>> a3e93dc4c4ae502332996946c424537d99b79775
+
 
 ## 🤝 Contributing
 
@@ -95,10 +94,9 @@ Feel free to fork this repository and create a pull request.
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-<<<<<<< HEAD
+
 ---
  
 ✨ Made with ❤ by Fathima Fesmi K P
-=======
-✨ Made with ❤ by Fathima Fesmi K P
->>>>>>> a3e93dc4c4ae502332996946c424537d99b79775
+
+
