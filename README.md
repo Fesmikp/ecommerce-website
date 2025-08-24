@@ -4,10 +4,13 @@ A modern and responsive *e-commerce website* built with *HTML, CSS, and Bootstra
 The project focuses on creating a clean, user-friendly interface with a product showcase and shopping experience design.  
 
 ---
+
 ## 📸 Live Demo
 
 🔗 [Click here to view the live site](https://fesmikp.github.io/ecommerce-website/)
 
+
+---
 
 ## 📌 Features  
 
