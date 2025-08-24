@@ -8,6 +8,7 @@ The project focuses on creating a clean, user-friendly interface with a product 
 
 🔗 [Click here to view the live site](https://fesmikp.github.io/ecommerce-website/)
 
+
 ## 📌 Features  
 
 - 🎨 *Responsive Design* – Works smoothly on desktops, tablets, and mobiles  
@@ -77,10 +78,8 @@ The layout adapts beautifully on all screen sizes including mobile, tablet, and 
 
 📧 Email: fathimafesmikp@gmail.com
 
----
 
- ## 🌐 Live Demo
-👉 [View Website](https://fesmikp.github.io/ecommerce-website/)
+---
 
 
 ## 🤝 Contributing
