@@ -1,0 +1,321 @@
+html{
+    scroll-behavior: smooth;
+}
+.Home-navbar-logo {
+    width: 163px;
+    height: 56px;
+}
+.ecommerce-carousel-container{
+    height: 100vh;
+
+}
+.carousel-img-height{
+    height: 100vh;
+
+}
+#nav-item2 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#nav-item1 {
+    font-family: "Roboto";
+}
+
+#nav-item3 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#nav-item4 {
+    color: black;
+    font-family: "Roboto";
+}
+
+#nav-item5 {
+    color: black;
+    font-family: "Roboto";
+}
+.services-bg-container {
+    background-color: #ffffff;
+    font-family: "Roboto";
+}
+.services-main-heading {
+    color: #183b56;
+    font-size: 60px;
+    font-weight: bold;
+}
+.services-description {
+    color: #616c7c;
+    font-size: 20px;
+
+}
+.services-card-image {
+    width: 100px;
+}
+.services-card-heading {
+    color: #1f2933;
+    font-size: 28px;
+    font-weight: 500;
+}
+.services-card-description {
+    color: #7b8794;
+    font-size: 20px;
+
+}
+.products-bg-container {
+    font-family: "Roboto";
+    background-color: #ffffff;
+}
+.products-main-heading {
+    color: #183b56;
+    font-size: 45px;
+    font-weight: 700;
+}
+.products-card-headphone-container {
+    background-image: url("images/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    height: 400px;
+}
+.products-card-laptop-container {
+    background-image: url("images/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+    height: 400px;
+}
+.products-card-title {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: bold;
+}
+.products-card-description {
+    color: #ffffff;
+    font-size: 20px;
+}
+#product-laptop-modal-button {
+    background-color: #ffffff;
+    color: #ff9f00;
+    padding: 12px;
+    border-radius: 35px;
+    width: 150px;
+    font-size: 17px;
+    transform: scale(1.05);
+}
+#product-headphone-modal-button {
+    background-color: #ffffff;
+    color: #ff9f00;
+    padding: 12px;
+    border-radius: 35px;
+    width: 150px;
+    font-size: 17px;
+    transform: scale(1.05);
+}
+.product-modal-title {
+    font-family: "Roboto";
+    font-size: 21px;
+}
+.product-modal-list-item {
+    font-family: "Roboto";
+    font-size: 17px;
+}
+.modal-special {
+    font-weight: bold;
+}
+.products-section-link {
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: bold;
+    transform: scale(1.05);
+}
+.offers-bg-container {
+    background-image: linear-gradient(to right, #f49541, #dd5d97, #ad2167);
+}
+.offers-special-img {
+    width: 100%;
+}
+.offers-appliances-img {
+    width: 100%;
+}
+.offers-main-heading {
+    color: #ad2167;
+    font-size: 35px;
+}
+.offers-description {
+    color: #ffffff;
+    font-size: 25px;
+}
+.offers-description-special{
+    color: #ffffff;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+}
+.offers-credit-card-img {
+    width: 90%;
+}
+.explore-bg-container {
+    font-family: "Roboto";
+    background-color: #f5f7fa;
+    
+    padding: 10px;
+
+}
+.explore-main-heading {
+    color: #183b56;
+    font-size: 50px;
+    font-weight: bold;
+}
+.deals-section-bg {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.deals-main-heading {
+    font-size: 35px;
+    font-weight: bold;
+    color: #183b56;
+}
+.deals-card-img {
+    width: 100%;
+    border-radius: 20px;
+}
+.accessories-image {
+    width: 100%;
+}
+.deals-card-heading {
+    color: #1f2933;
+    font-size: 23px;
+}
+.deals-link {
+    color: #ff9f00;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.festive-bg-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+.festive-tv-image {
+    width: 100%;
+    border-radius: 20px;
+}
+.festive-link {
+    color: #ff9f00;
+    font-size: 20px;
+    font-weight: bold;
+    transform: scale(1.05);
+}
+.blogs-bg-container {
+    background-color: #ffffff;
+    font-family: "Roboto";
+}
+.blogs-main-heading {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 45px;
+}
+.blogs-card-container {
+    background-color: #ffffff;
+    width: 100%;
+}
+.blogs-card-image {
+    width: 100%;
+}
+.blogs-card-sub-title {
+    color: #959ead;
+    font-size: 25px;
+}
+.blogs-card-title {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+.blogs-card-description{
+    color:#959ead;
+    font-size:25px;
+}
+.blogs-card-link{
+    color:#ff9f00;
+    font-size: 20px;
+    font-weight:bold;
+    transform: scale(1.05);
+}
+.ecommerce-contacts-bg-container {
+    background-color: #f5f7fa;
+    font-family: "roboto";
+}
+
+.ecommerce-contacts-heading {
+    font-weight: bold;
+    font-size: 50px;
+    color: #183b56;
+}
+
+.ecommerce-contacts-button {
+    color: #ff9f00;
+    font-size: 30px;
+    border-color: #ff9f00;
+    padding: 8px;
+    width: 230px;
+    border-width: 3px;
+    transform: scale(1.05);
+}
+.footer-bg-container {
+    background-color: #0d2436;
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.footer-logo {
+    width: 60%;
+}
+
+.footer-address {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.footer-contacts-heading {
+    color: #5a7184;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.list-items {
+    color: #5a7184;
+    font-size: 22px;
+}
+
+.copyright {
+    color: #5a7184;
+    font-size: 23px;
+}
+
+.footer-icon {
+    color: #5a7184;
+    font-size: 26px;
+}
+
+.footer-icon-bg {
+    background-color: #152c3e;
+    border-width: 0px;
+    border-radius: 500px;
+    width: 70px;
+    height: 70px;
+   
+}
+
+.footer-icon1 {
+    color: #5a7184;
+    font-size: 30px;
+
+}
+
+.hor-line {
+    border-color: #5a7184;
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f9afc91792.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="homeSection">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <img class="Home-navbar-logo" src="images/ecommerce-website-logo-img.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id="nav-item1" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="nav-item2" href="#servicesSection">Services</a>
+                <a class="nav-link" id="nav-item3" href="#productsSection">Products</a>
+                <a class="nav-link" id="nav-item4" href="#exploreSection">Explore deals & Offers</a>
+                <a class="nav-link" id="nav-item5" href="#blogsSection">Trending Blogs</a>
+                <a class="nav-link" id="nav-item5" href="#footerSection">Contact us</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide ecommerce-carousel-container" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/ecommerce-carousel-1-img.png" class="d-none d-md-inline w-100 carousel-img-height" alt="...">
+      <img src="images/ecommerce-carousel-1-sm-img.png" class="d-inline d-md-none w-100 h-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ecommerce-carousel-2-img.png" class="d-none d-md-inline w-100 carousel-img-height" alt="...">
+      <img src="images/ecommerce-carousel-2-sm-img.png" class="d-inline d-md-none w-100 h-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/ecommerce-carousel-3-img.png" class="d-none d-md-inline w-100 carousel-img-height" alt="...">
+      <img src="images/ecommerce-carousel-3-sm-img.png" class="d-inline d-md-none w-100 h-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div> 
+    <div id="servicesSection">
+        <div class="services-bg-container mt-5 pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 pt-5">
+                    <h1 class="services-main-heading">Our Services</h1>
+                    <p class="services-description mt-3">Most Online stores offer lower prices.online shopping makes price comparison simpler and quicker. It is very convenient to shop froM where you are located. It saves you the cost of driving stores, as well as parking fees.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 shadow mr-4 mb-3 text-center">
+                        <img class="services-card-image mt-3" src="images/ecommerce-services-delivery-img.png" />
+                        <h1 class="services-card-heading mt-3">Fast and Free Delivery</h1>
+                        <p class="services-card-description mt-3">Fast, free, and convenient delivery choices on millions of items.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 shadow mr-4 mb-3 text-center">
+                        <img class="services-card-image mt-3" src="images/ecommerce-services-money-back-img.png" />
+                        <h1 class="services-card-heading mt-3">100% Money back guarantee</h1>
+                        <p class="services-card-description mt-3">This is probably the most popular guarantee in the world.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="p-4 shadow mr-4 mb-3 text-center">
+                        <img class="services-card-image mt-3" src="images/ecommerce-services-24-by-7-support-img.png" />
+                        <h1 class="services-card-heading mt-3">Online Support</h1>
+                        <p class="services-card-description mt-3">Our Online support will provide you with many useful functions, valuable information, tips</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <div id="productsSection">
+        <div class="products-bg-container mt-5 pt-5 pb-5 h-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-5">
+                    <h1 class="products-main-heading mb-4">Our Products</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="products-card-headphone-container d-flex flex-column justify-content-end mb-4">
+                        <h1 class="products-card-title">Smart Headphones</h1>
+                        <p class="products-card-description">Headphones with Deep bass,soundtouch...</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" id="product-headphone-modal-button" data-toggle="modal" data-target="#exampleModal">
+                                View Details
+                            </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title product-modal-title" id="exampleModalLabel">Sony WH-1000XM4 Noise Cancelling Headphones</h5>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="product-modal-list-item">Get Best smart Headphones Prices Online In India.Select from the best range of Headphones from most popular brands...</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Voice assistent:</span> Alexa, Google Assistant & Siri</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Smart listening:</span>Ambient sound with the best noise cancellation</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Long battery life:</span>a single charge for 10 min for 5 hours play back</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Quick charging:</span>change the track with your fingertip</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Buy Now</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="products-card-laptop-container d-flex flex-column justify-content-end mb-3">
+                        <h1 class="products-card-title">Laptops</h1>
+                        <p class="products-card-description">Explore vast selection of laptop</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" id="product-laptop-modal-button" data-toggle="modal" data-target="#exampleModal">
+                        View Details
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title product-modal-title" id="exampleModalLabel">Inspiron 14 5490 core is laptop </h5>
+
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="product-modal-list-item">Get best laptop price online in india Select from the best range of Laptops from most popular brands...</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Performance:</span> Core i5 3rd Gen,2.6 Ghz,4 GB RAM</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Storage:</span> 500 GB HDD,SATA,7200 RPM</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Battery:</span> Li-lon,Cell</p>
+                                            <p class="product-modal-list-item"><span class="modal-special">Design:</span> 14.0 Inches, 1366 X 768 , 2.07 kg ,34Mm Thick</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Buy Now</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-end">
+                    <a class="products-section-link mr-3">See All Offers<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <div id="exploreSection">
+        <div class="explore-bg-container pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5">
+                    <h1 class="explore-main-heading">Explore Deals & Offers</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-3">
+                    <div class="deals-section-bg p-4 shadow">
+                        <h1 class="deals-main-heading">Up to 80% Off | Electronics & Gadgets</h1>
+                        <div class="d-flex flex-row justify-content-center mt-4">
+                            <div class="text-center mr-3">
+                                <img class="deals-card-img" src="images/ecommerce-explore-mamba-watch-img.png" />
+                                <h1 class="deals-card-heading mt-4">Smart Watch</h1>
+                            </div>
+                            <div class="text-center ml-3">
+                                <img class="deals-card-img" src="images/ecommerce-explore-camera-img.png" />
+                                <h1 class="deals-card-heading mt-4">Cameras</h1>
+                            </div>
+
+                        </div>
+                        <div class="mb-3 d-flex flex-row justify-content-center mt-4">
+                            <div class="text-center mr-3">
+                                <img class="deals-card-img" src="images/ecommerce-explore-sport-and-fitness-img.png" />
+                                <h1 class="deals-card-heading mt-4">Sports& Fitness</h1>
+                            </div>
+                            <div class="text-center ml-3">
+                                <img class="deals-card-img" src="images/ecommerce-explore-ear-phones-pink-img.png" />
+                                <h1 class="deals-card-heading mt-4">Earphones</h1>
+                            </div>
+
+                        </div>
+                        <a class="deals-link">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-3">
+                    <div class="festive-bg-container p-4 shadow">
+                        <h1 class="deals-main-heading">Festive Offers TVs & appliances</h1>
+                        <img class="festive-tv-image mt-3 mb-3" src="images/ecommerce-explore-tv-img.png" />
+                        <a class="festive-link">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-3">
+                    <div class="festive-bg-container p-4 shadow">
+                        <h1 class="deals-main-heading">Under Rs 4000 | Friendly Accessories</h1>
+                        <div class="d-flex flex-row justify-content-center mt-4">
+                            <div class="text-center mr-3">
+                                <img class="accessories-image" src="images/ecommerce-explore-tablet-device-img.png" />
+                                <h1 class="deals-card-heading mt-3">Tablet</h1>
+                            </div>
+                            <div class="text-center mr-3">
+                                <img class="accessories-image" src="images/ecommerce-explore-joy-stick-img.png" />
+                                <h1 class="deals-card-heading mt-3">PlayStation</h1>
+                            </div>
+
+                        </div>
+                        <div class="mb-3 d-flex flex-row justify-content-center mt-4">
+                            <div class="text-center mr-3">
+                                <img class="accessories-image" src="images/ecommerce-explore-speakers-big-img.png" />
+                                <h1 class="deals-card-heading mt-3">Speakers</h1>
+                            </div>
+                            <div class="text-center mr-3">
+                                <img class="accessories-image" src="images/ecommerce-explore-vr-set-img.png" />
+                                <h1 class="deals-card-heading mt-3">Virtual Reality Set</h1>
+                            </div>
+
+                        </div>
+                        <a class="deals-link">See All Deals <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+     <div class="offers-bg-container pr-4 pl-4 pt-5 pb-5 mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-2 order-1 order-md-2 text-center">
+                        <img class="offers-special-img" src="images/ecommerce-offers-special-img.png" />
+                    </div>
+                    <div class="col-12 col-md-5 order-2 order-md-3text-center">
+                        <img class="offers-appliances-img" src="images/ecommerce-offers-appliances-img.png" />
+                    </div>
+                    <div class="col-12 col-md-5 order-3 order-md-1">
+                        <h1 class="offers-main-heading mt-3">BEST NEW YEAR SPECIAL OFFERS</h1>
+                        <p class="offers-description">Best time to buy. Save upto<span class="offers-description-special"> 70% cash</span></p>
+                        <img class="offers-credit-card-img" src="images/ecommerce-offers-credit-card-img.png" />
+                    </div>
+                </div>
+            </div>
+        
+</div>
+</div>
+    <div id="blogsSection">
+        <div class="blogs-bg-container pl-4 pr-4 pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5">
+                    <h1 class="blogs-main-heading mb-4">Trending Blogs</h1>
+                </div> 
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="blogs-card-container shadow">
+                        <img class="blogs-card-image" src="images/ecommerce-trending-blogs-1-img.png" />
+                        <div class="p-4">
+                            <p class="blogs-card-sub-title">Fountain Pens</p>
+                            <h1 class="blogs-card-title">Guide to Fountain Pen Nibs</h1>
+                            <p class="blogs-card-description">If you're having trouble with a fountain  pen whether it's scratchy, too dry, or too wet...</p>
+                            <a class="blogs-card-link">READ MORE <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="blogs-card-container shadow">
+                        <img class="blogs-card-image" src="images/ecommerce-trending-blogs-2-img.png" />
+                        <div class="p-4">
+                            <p class="blogs-card-sub-title">Productivity</p>
+                            <h1 class="blogs-card-title">How to Craft a Better Todo List</h1>
+                            <p class="blogs-card-description">A well-crafted Todo list acts as a guidig light forbyour day. It helps you overcome...</p>
+                            <a class="blogs-card-link">READ MORE <svg xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <div id="footerSection">
+        <div class="ecommerce-contacts-bg-container pt-5 pb-5 text-center mt-5">
+        <h1 class="ecommerce-contacts-heading mt-5">Let us Join Together</h1>
+        <button class="ecommerce-contacts-button text-uppercase mt-3">contact us</button>
+        </div>
+        <div class="footer-bg-container p-2">
+        <div class="container">
+            <div class="row">
+                <div class="mt-5 col-12 col-md-6 text-md-left col-lg-4 text-center d-flex flex-column justify-content-md-start">
+                    <img class="footer-logo" src="images/ecommerce-website-logo-2-img.png" />
+                    <div class="d-flex flex-row justify-content-center mt-4 mb-4">
+                        <div class="footer-icon-bg mr-3 d-flex flex-column justify-content-center text-center">
+                            <i class="fa-brands fa-google footer-icon1"></i>
+                        </div>
+                        <div class="footer-icon-bg mr-3 d-flex flex-column justify-content-center text-center">
+                            <i class="fa-brands fa-twitter footer-icon1"></i>
+                        </div>
+                        <div class="footer-icon-bg mr-3 d-flex flex-column justify-content-center text-center">
+                            <i class="fa-brands fa-instagram footer-icon1"></i>
+                        </div>
+                        <div class="footer-icon-bg d-flex flex-column justify-content-center text-center">
+                            <i class="fa-brands fa-linkedin footer-icon1"></i>
+                        </div>
+                    </div>
+                    <p class="footer-address mt-3 mb-3">37, Ayur Vigayan Nagar, New Delhi, India</p>
+                </div>
+                <div class="col-6 mt-4 col-lg-2">
+                    <h1 class="footer-contacts-heading mb-4">Get to Know us</h1>
+
+                    <h1 class="list-items">About US</h1>
+                    <h1 class="list-items">Career</h1>
+                    <h1 class="list-items">Press Releases</h1>
+                    <h1 class="list-items">Gift a smile</h1>
+
+
+
+                </div>
+                <div class="col-6 mt-4 col-lg-3">
+                    <h1 class="footer-contacts-heading mb-4">Contact with Us</h1>
+
+                    <h1 class="list-items">Facebook</h1>
+                    <h1 class="list-items">Twitter</h1>
+                    <h1 class="list-items">Instagram</h1>
+
+
+                </div>
+                <div class="col-6 mt-4 col-lg-3">
+                    <h1 class="footer-contacts-heading mb-4">Let Us Help You</h1>
+
+                    <h1 class="list-items">100% Purchase</h1>
+                    <h1 class="list-items">Protection</h1>
+                    <h1 class="list-items">Your Account</h1>
+                    <h1 class="list-items">Return Centre</h1>
+                    <h1 class="list-items">Help</h1>
+
+
+                </div>
+                <div class="col-12">
+                    <hr class="hor-line" />
+                    <div class="d-flex flex-row justify-content-center mt-4 mb-3">
+                        <i class="fa-regular fa-copyright footer-icon mr-1 mt-1"></i>
+                        <p class="copyright">2025 by Fesmi. Created with Bootstrap</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+       
+</body>
+</html>
