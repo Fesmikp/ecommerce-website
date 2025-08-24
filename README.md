@@ -53,12 +53,8 @@ Run the project
 
 Simply open index.html in your browser
 
-🌍 Live Demo
-
-🔗 View Website
- 
-
-🤝 Contributing
+ ## 🌐 Live Demo
+👉 [View Website](https://fesmikp.github.io/ecommerce-website/)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!  
