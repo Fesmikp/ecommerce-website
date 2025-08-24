@@ -54,7 +54,7 @@ git clone https://github.com/Fesmikp/ecommerce-website.git
 
 Open the project folder
 
-cd E-commerce-website
+cd E_commerce_website
 
 
 Run the project
